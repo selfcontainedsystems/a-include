@@ -14,7 +14,7 @@ The [fragment.html](example/fragment.html) contains the HTML code that should be
 </a-include>
 ```
 
-Also, add the script to the custom element at the end of the page:
+Also, add the [a-include.js](./a-include.js) script, which defines the custom element, at the end of the page:
 
 ```html
 <script src="./a-include.js"></script>
