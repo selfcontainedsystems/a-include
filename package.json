@@ -7,7 +7,7 @@
     "start": "http-server -c-1",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test": "eslint *.js && start-server-and-test start http-get://localhost:8080 cypress:run"
+    "test": "start-server-and-test start http-get://localhost:8080 cypress:run"
   },
   "keywords": [
     "a-include",
