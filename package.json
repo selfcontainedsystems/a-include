@@ -1,0 +1,23 @@
+{
+  "name": "a-include",
+  "version": "1.0.0",
+  "description": "Custom-Element for Client-Side Includes",
+  "main": "a-include.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "eslint *.js && start-server-and-test start http-get://localhost:8080 cypress:run"
+  },
+  "keywords": [
+    "a-include",
+    "include"
+  ],
+  "author": "Jochen Christ",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "http-server": "^0.12.3",
+    "start-server-and-test": "^1.12.0"
+  }
+}
