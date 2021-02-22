@@ -1,4 +1,4 @@
-class AInclude extends HTMLElement {
+export default class AInclude extends HTMLElement {
 
   get selector() {
     return this.getAttribute('selector');

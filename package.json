@@ -1,23 +1,16 @@
 {
   "name": "a-include",
   "version": "1.0.0",
-  "description": "Custom-Element for Client-Side Includes",
+  "description": "Custom Element for Client-Side Include of a link",
   "main": "a-include.js",
   "scripts": {
-    "start": "http-server -c-1",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "test": "start-server-and-test start http-get://localhost:8080 cypress:run"
+    "test": "echo 'no tests'"
   },
   "keywords": [
     "a-include",
-    "include"
+    "include",
+    "client side include"
   ],
   "author": "Jochen Christ",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "cypress": "^6.5.0",
-    "http-server": "^0.12.3",
-    "start-server-and-test": "^1.12.0"
-  }
+  "license": "Apache-2.0"
 }
