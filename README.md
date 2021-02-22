@@ -2,6 +2,10 @@
 
 Custom Element to include the html content of a link via plain JavaScript.
 
+## Demo
+
+https://unpkg.com/a-include/example/demo.html
+
 ## Usage
 
 ### Include Fragements
