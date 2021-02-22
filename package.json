@@ -1,6 +1,6 @@
 {
   "name": "a-include",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom Element for Client-Side Include of a link",
   "homepage": "https://github.com/selfcontainedsystems/a-include",
   "main": "a-include.js",
