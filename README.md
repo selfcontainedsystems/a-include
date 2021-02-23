@@ -34,7 +34,6 @@ To remove the link from being rendered use an empty `a` tag:
 </a-include>
 ```
 
-
 ### Include Fragments from Full Pages
 
 Sometimes only a specific part of the HTML page should be included.
