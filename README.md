@@ -18,7 +18,7 @@ The `a-include` tag gets replaced with the content of [fragment.html](example/fr
 </a-include>
 
 <!-- defines custom element a-include -->
-<script src="./a-include.js"></script>
+<script type="module" src="https://unpkg.com/a-include@1.0.2/a-include.js"></script>
 ```
 
 The `a-include` tag is built with progressive enhancement in mind.
@@ -46,5 +46,5 @@ In this example, we only include the `main` html element from the [fullpage.html
 </a-include>
 
 <!-- defines custom element a-include -->
-<script src="./a-include.js"></script>
+<script type="module" src="https://unpkg.com/a-include@1.0.2/a-include.js"></script>
 ```

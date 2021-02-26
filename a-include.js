@@ -19,7 +19,7 @@ class AInclude extends HTMLElement {
     fetch(
         href,
         {
-          headers: this.getHeaders()
+          headers: this.buildHeaders()
         })
     .then(response => {
       if (!response.ok) {
@@ -27,11 +27,11 @@ class AInclude extends HTMLElement {
       }
       return response.text();
     })
-    .then(html => this.filterContent(html))
+    .then(html => this.selectContent(html))
     .then(html => this.replace(html));
   }
 
-  getHeaders() {
+  buildHeaders() {
     if (this.token) {
       return {
         'Authorization': 'Bearer ' + this.token
@@ -41,7 +41,7 @@ class AInclude extends HTMLElement {
     }
   }
 
-  filterContent(html) {
+  selectContent(html) {
     html = html.trim();
     if (this.selector) {
       let template = document.createElement("template");
